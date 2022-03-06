@@ -9,10 +9,10 @@ int main(){
     int vals [5] = {6,3,2,1,2};
     bool flag = true;
 
-    std::ifstream infile("thefile.txt");
+//    std::ifstream infile("thefile.txt");
     std::string line;
 
-    while (std::getline(infile, line))
+    while (std::getline(std::cin, line))
     {
         std::istringstream iss(line);
         int n;
